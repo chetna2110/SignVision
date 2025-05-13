@@ -1,0 +1,66 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Style */
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #2b2e4a, #e84545);
+    font-family: 'Unbounded', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  /* Container Style */
+  .container {
+    max-width: 700px;
+    padding: 40px;
+  }
+  
+  /* Heading & Text */
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+  }
+  
+  h1 span {
+    color: #ffdd59;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button */
+  button {
+    font-family: 'Unbounded', cursive;
+  }
+  
+  /* Animations */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s forwards;
+  }
+  
+  .delay-1 {
+    animation-delay: 0.5s;
+  }
+  
+  .delay-2 {
+    animation-delay: 1s;
+  }
+  
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
